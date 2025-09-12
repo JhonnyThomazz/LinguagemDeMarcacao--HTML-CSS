@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url('../img/1000142297.jpg');
+    height: 100dvh;
+    background-size: 100% 100%;
+}

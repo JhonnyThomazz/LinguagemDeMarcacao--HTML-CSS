@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #A5A2A2;
+    color: #604799;
+}
+nav{
+    background-color: black;
+    color:rgb(158, 0, 0);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: "Kings", cursive;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+.introText{
+    font-size: 30px;
+    width: 950px;
+}
+.Gaming01{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    padding-left: 100px;
+    padding-top: 45px;
+}
+.DOOM{
+    margin-top: 250px;
+}
+.DOOMLOGO{
+    width: 350px;
+}

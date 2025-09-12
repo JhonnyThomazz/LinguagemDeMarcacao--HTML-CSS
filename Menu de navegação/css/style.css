@@ -1,0 +1,18 @@
+nav{
+    margin-top: 50px;
+}
+a {
+    text-decoration: none;
+    color: rgb(1, 161, 224);
+    font-size: 1.5rem;
+    margin-inline: 10px;
+    background-color: rgb(31, 30, 30);
+    padding: 10px;
+    border-radius: 20px;
+}
+a:hover{
+    background-color: rgb(94, 93, 93);
+}
+a:visited{
+ background-color: #68191E;
+}

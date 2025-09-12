@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #6b0005;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+.DOOM{
+    height: 200px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.videoDOOM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TITANFALL{
+    height: 200px;
+}
+.child{
+    color: #6b0005;
+    font-size: 1.5rem;
+}
+.DOOMSLAYER{
+display: flex;
+justify-content: center;
+align-items: center;
+}
