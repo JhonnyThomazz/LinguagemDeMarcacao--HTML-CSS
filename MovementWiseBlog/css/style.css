@@ -6,11 +6,11 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #A5A2A2;
-    color: #604799;
+    background-color: #000000;
+    color: #7b5bc5;
 }
 nav{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color:rgb(158, 0, 0);
     padding: 30px;
     display: flex;
@@ -18,17 +18,22 @@ nav{
     align-items: center;
     font-size: 1.5rem;
     font-family: "Kings", cursive;
+    border-style: groove;
+    border-color: rgb(255, 0, 0);
 }
 .intro{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; 
 }
 .introText{
     font-size: 30px;
     width: 950px;
+    padding: 10px;
+    border-style: groove;
+    border-color: rgb(255, 0, 0);
 }
 .Gaming01{
     display: flex;
@@ -39,8 +44,18 @@ nav{
     padding-top: 45px;
 }
 .DOOM{
-    margin-top: 250px;
+    margin-top: 150px;
+    background-color: red;
+    color: black;
+}
+.DOOMTEXT{
+    font-size: 1.5rem;
+    
 }
 .DOOMLOGO{
     width: 350px;
 }
+.MAINLOGO{
+    margin: 10px;
+}
+
