@@ -36,9 +36,6 @@ nav{
     border-color: rgb(255, 0, 0);
 }
 .Gaming01{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 800px;
     padding-left: 100px;
     padding-top: 45px;
@@ -50,12 +47,19 @@ nav{
 }
 .DOOMTEXT{
     font-size: 1.5rem;
-    
+
 }
 .DOOMLOGO{
     width: 350px;
 }
+.DOOMVID{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .MAINLOGO{
     margin: 10px;
 }
+
+
 

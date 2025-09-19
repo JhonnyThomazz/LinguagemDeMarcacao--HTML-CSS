@@ -1,0 +1,27 @@
+
+tr:nth-child(even){
+    background-color: black;
+    color: aliceblue;
+}
+tr:nth-child(odd){
+    background-color: darkred;
+    color:aqua;
+}
+table{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-collapse: collapse;
+    font-size: 2.5rem;
+}
+
+th, td{
+   padding: 10px;
+   border: 1px solid black;
+}
+a{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
