@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 59, 59);
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgb(197, 198, 199);
+    padding: 20px;
+    gap:5px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.main-form input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.main-form h1{
+    text-align: center;
+}
+.escolha
+.SUBMIT{
+margin-top: 15px;
+padding-left: 65px;
+padding-right: 65px;
+}

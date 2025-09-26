@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body> 
+    <form class="main-form" action="">
+        <h1>Cadastro de clientes</h1>
+        
+        <label for="nome">Nome: </label>
+        <input name="nome"id="nome" type="text" placeholder="Insira seu nome"required [A-Za-z]>
+        
+        <label for="dataNasc">Data de nascimento: </label>
+        <input name="dataNasc" id="dataNasc" type="date"required>
+        
+        <label for="email">Endereço de email: </label>
+        <input name="email" id="email" type="email" placeholder="exemplo@gmail.com.br" required>
+        
+        <label for="senha">Senha: </label>
+        <input name="senha" id="senha" type="password" placeholder="Insira sua senha aqui" required>
+        
+        <label name="telefoneContato">Telefone para contato</label>
+        <input name="telefoneContato" id="telefoneContato"type="tel" placeholder="(DDD) 99999-9999" required>
+        
+        <label>Selecione uma opção</label>
+        <select name="seletor" id="seletor">
+            <option value="0"></option>
+            <option value="1">Professor</option>
+            <option value="2">Aluno</option>
+        </select>
+
+        <label class="escolha" for="escolhaUM">Lembre-se de mim</label>
+        <input name="escolhaUM" id="escolhaUM" type="checkbox">
+
+
+        <input class="SUBMIT" type="submit" value="Cadastrar-se">
+
+    <script src="js/script.js"></script>
+</body>
+</html>

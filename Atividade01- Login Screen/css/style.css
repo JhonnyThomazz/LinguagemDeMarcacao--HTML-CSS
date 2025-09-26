@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.LoginScreen{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-right:100px;
+}
+.imgBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+form label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+form input{
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.checkbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

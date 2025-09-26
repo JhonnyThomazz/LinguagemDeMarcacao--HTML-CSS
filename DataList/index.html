@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataList</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <form action="pages/dashboard.html">
+        <label for="cidade">Esolha uma cidade: </label>
+        <input list="cidades" id="cidade" name="cidade" placeholder="Digite ou escolha" />
+
+        <datalist id="cidades">
+            <option value="São Paulo">
+            <option value="Rio de Janeiro">
+            <option value="Belo Horizonte">
+            <option value="Curitiba">
+            <option value="Porto Alegre">
+        </datalist>
+        
+        <button type="submit">Enviar</button>
+
+    </form>
+    <script src="js/script.js"></script>
+</body>
+</html>

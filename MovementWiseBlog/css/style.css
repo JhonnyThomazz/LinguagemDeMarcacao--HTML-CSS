@@ -41,25 +41,53 @@ nav{
     padding-top: 45px;
 }
 .DOOM{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse; 
     margin-top: 150px;
-    background-color: red;
-    color: black;
+    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
 }
-.DOOMTEXT{
-    font-size: 1.5rem;
-
+.DOOMMAIN{
+    background-color: black;
+    padding-left: 774px;
+    padding-right: 774px;
+    border-style: groove;
+    border-color: rgb(255, 0, 0);
 }
 .DOOMLOGO{
     width: 350px;
+}
+.DOOMTEXT{
+    font-size: 30px;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 500px;
+    font-weight: bold;
+    padding-left: 10px;
 }
 .DOOMVID{
     display: flex;
     justify-content: center;
     align-items: center;
+    width:850px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 .MAINLOGO{
     margin: 10px;
 }
-
+.MESSAGE{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 50px;
+}
 
 
