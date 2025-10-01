@@ -3,45 +3,81 @@
     padding: 0;
     box-sizing: border-box;
 }
-section{
+
+section {
     display: flex;
     justify-content: space-between;
 }
-.LoginScreen{
-    display: flex;
-    justify-content:flex-start;
-    align-items: center;
-    margin-right:100px;
-}
-.imgBackground{
+
+.LoginScreen {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 50vw;
 }
-.image{
+
+.imgBackground {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0D2C3B;
+    width: 50vw;
+    height: 100dvh;
 }
-form h1{
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+form h1 {
     text-align: center;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
-    gap:5px
+    gap: 10px;
+    width: 450px;
 }
-form label{
+
+form label {
     font-size: 1.5rem;
     font-weight: bold;
 }
-form input{
+
+form input {
     padding: 5px;
-    padding-left: 50px;
-    padding-right: 50px;
+    border-radius: 5px;
+
+    border: 1px solid rgb(206, 206, 206);
 }
-.checkbox{
+
+form input::placeholder{
+    padding: 0;
+
+}
+
+.checkbox {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    margin: 0;
+    gap: 110px;
+}
+.ForgottenPasswd{
+    color: #308FFF;
+}
+.Altcolor{
+    color: #308FFF;
+}
+.SUB{
+    text-align: center;
+}
+
+.Submit {
+    padding: 8px;
+    background-color: #00AAFF;
+    color: aliceblue
 }
