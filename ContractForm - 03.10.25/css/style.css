@@ -31,26 +31,26 @@ h1 {
 .GeneralCards{
     display:flex;
     flex-direction: column;
+    justify-content: center;
     gap: 30px;
     margin-top: 15px;
 }
-.InfoCard01{
-    padding: 10px;
-}
 .InfoCard02{
-    border: 1px solid #A91079;
-    border-radius: 8px;
+    display: flex;
+    align-items: center;
     padding: 10px;
     width: 300px;
+    gap: 8px;
 }
-.InfoCard03{
-    padding: 5px;
-    margin-bottom: 100px
+
+.InfoCard02 img{
+    width: 15px;
 }
 .contact{
     display: flex;
     align-items: center;
     gap: 30px;
+    margin-top: 100px;
 }
 .Insta{
     background-color: #a91079;
@@ -69,8 +69,75 @@ h1 {
     gap:8px;
     
 }
-.FORMBUTTONS button{
-    padding: 10px;
+.FORMBUTTONS{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 30px;
+
 }
 
+.FORMBUTTONS button{
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #A91079;
+    border-radius: 5px;
+}
+.FORMBUTTONS button:nth-child(1){
+    background-color: #A91079;
+    color:white
+}
 
+.TextInfo{
+    border: none;
+    border-bottom: 2px solid #B9ADC1;
+    background: transparent;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.active::placeholder{
+    color: #2E0249;
+    font-weight: 600;
+}
+.active{
+    border-bottom: 2px solid #A91079;
+}
+.end{
+    margin-top: 170px;
+    margin-left: 25px;
+}
+.end button{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+    background-color: #A91079;
+    color: white;
+    border-radius: 8px;
+    width: 200px;
+}
+.end img{
+    margin-left: 15px;
+}
+.InfoCard01:hover{
+    border: 1px solid #A91079;
+    background-color: #a9107929;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+}
+.InfoCard02:hover{
+    border: 1px solid #A91079;
+    background-color: #a9107929;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+}
+.InfoCard03:hover{
+    border: 1px solid #A91079;
+    background-color: #a9107929;
+    border-radius: 8px;
+    padding: 10px;
+    width: 300px;
+}
