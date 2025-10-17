@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+.outerRing{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-color: red;
+    border-radius: 50%;
+}
+.innerRing1{
+    position: absolute;
+    width: 285px;
+    height: 285px;
+    background-color: red;
+    border: 30px solid white;
+    border-radius: 50%;
+}
+.blueCircle{
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.star{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    top:305px;
+}
